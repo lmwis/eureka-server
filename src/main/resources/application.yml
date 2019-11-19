@@ -6,6 +6,7 @@ server:
 eureka:
   instance:
     hostname: localhost
+    prefer-ip-address: true
   client:
     # 声明自己为一个服务端
     registerWithEureka: false
